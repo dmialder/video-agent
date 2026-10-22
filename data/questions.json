@@ -1,0 +1,21 @@
+{
+  "annotation": "Authored before model evaluation from official captions. Intervals identify supporting discussion, not millisecond-precise event boundaries. This is a small, single-video diagnostic set, not a general benchmark.",
+  "questions": [
+    {"id":"q01","category":"lookup","question":"Who are the two other instructors teaching this course with Jason Ku?","gold_intervals":[[22,34]],"answer_groups":[["demaine"],["solomon"]]},
+    {"id":"q02","category":"timestamp","question":"When does the lecturer explain that a computational problem is a binary relation between inputs and outputs?","gold_intervals":[[245,279]],"answer_groups":[["binary relation"]]},
+    {"id":"q03","category":"lookup","question":"What principle guarantees a shared birthday with more than 365 students, according to the lecture?","gold_intervals":[[365,390]],"answer_groups":[["pigeonhole"]]},
+    {"id":"q04","category":"reasoning","question":"How does the proposed birthday algorithm use its record when interviewing each new student?","gold_intervals":[[667,787]],"answer_groups":[["check","search","look"],["match","pair"],["add","append","record"]]},
+    {"id":"q05","category":"timestamp","question":"At what point does the lecturer introduce induction as the technique for proving correctness for large inputs?","gold_intervals":[[976,1037]],"answer_groups":[["induction"]]},
+    {"id":"q06","category":"reasoning","question":"What is the easiest base case of the birthday proof and why does it satisfy the hypothesis?","gold_intervals":[[1258,1298]],"answer_groups":[["0","zero"],["match","pair"]]},
+    {"id":"q07","category":"reasoning","question":"Why does the lecturer reject elapsed wall-clock time as the main measure of algorithm efficiency, and what does he count instead?","gold_intervals":[[1607,1718]],"answer_groups":[["computer","machine","hardware"],["operation"]]},
+    {"id":"q08","category":"lookup","question":"What do big O, omega and theta respectively bound in the lecture?","gold_intervals":[[1831,1877]],"answer_groups":[["upper"],["lower"],["both","tight"]]},
+    {"id":"q09","category":"timestamp","question":"When is the word RAM model introduced, and what does RAM stand for?","gold_intervals":[[2239,2280]],"answer_groups":[["random access memory"]]},
+    {"id":"q10","category":"lookup","question":"How many bits are in a byte, according to the memory-addressing explanation?","gold_intervals":[[2322,2345]],"answer_groups":[["8","eight"]]},
+    {"id":"q11","category":"reasoning","question":"Why does reading n items take linear time even if one CPU operation is constant time?","gold_intervals":[[2554,2592]],"answer_groups":[["every","each","all"],["read"]]},
+    {"id":"q12","category":"lookup","question":"Which three blocks of topics correspond to the three quizzes described at the end?","gold_intervals":[[2702,2729]],"answer_groups":[["data structure"],["sorting"],["graph","shortest path"],["dynamic programming"]]},
+    {"id":"q13","category":"unanswerable","question":"What learning rate does Jason Ku recommend for fine-tuning a neural network in this lecture?","gold_intervals":[],"answer_groups":[]},
+    {"id":"q14","category":"unanswerable","question":"Which GPU model is used for the CUDA benchmark shown in this lecture?","gold_intervals":[],"answer_groups":[]},
+    {"id":"q15","category":"visual","question":"Around 37:30, what large heading is written at the top of the blackboard? Read it from the video frames.","gold_intervals":[[2247,2255]],"answer_groups":[["model of computation"]],"annotation_source":"Frame at 2250 seconds inspected before model evaluation, presentation/assets/lecture_2250.jpg"},
+    {"id":"q16","category":"visual","question":"Around 25:00, what is the lecturer holding in his left hand? Answer from the video frames.","gold_intervals":[[1495,1506]],"answer_groups":[["paper","sheet","notes"]],"annotation_source":"Frame at 1500 seconds inspected before model evaluation, presentation/assets/lecture_1500.jpg"}
+  ]
+}
