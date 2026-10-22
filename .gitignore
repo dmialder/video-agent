@@ -1,0 +1,11 @@
+.venv/
+.cache/
+__pycache__/
+*.py[cod]
+*.part
+data/lecture.mp4
+data/model/
+data/model_info.json
+data/source_page.html
+data/captions.json
+results/
