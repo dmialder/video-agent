@@ -25,10 +25,10 @@ def serve(agent,root:Path,port=8765):
                 examples=[]
                 for file in sorted((root/'results/evaluation').glob('q*/result.json')):
                     result=json.loads(file.read_text(encoding='utf-8'))
-                    examples.append({'id':file.parent.name,'label':'Исходный прогон '+file.parent.name,'question':result['question']})
+                    examples.append({'id':file.parent.name,'label':'Original run '+file.parent.name,'question':result['question']})
                 for file in sorted((root/'results/timecode_ablation').glob('q*/result.json')):
                     result=json.loads(file.read_text(encoding='utf-8'))
-                    examples.append({'id':'time_'+file.parent.name,'label':'С пересчётом времени '+file.parent.name,'question':result['question']})
+                    examples.append({'id':'time_'+file.parent.name,'label':'With timestamp conversion '+file.parent.name,'question':result['question']})
                 return self.send_json(examples)
             if path.startswith('/api/example/'):
                 key=path.rsplit('/',1)[-1]
