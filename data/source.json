@@ -1,0 +1,16 @@
+{
+  "title": "1. Algorithms and Computation",
+  "speaker": "Jason Ku",
+  "course": "MIT 6.006, Spring 2020",
+  "source_page": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/",
+  "youtube": "https://www.youtube.com/watch?v=ZA-tUyM_y7s",
+  "video_download": "https://archive.org/download/MIT6.006S20/MIT6_006S20_02_04_Lecture_1_300k.mp4",
+  "captions_download": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/dd0823c3851b5df3a7e0b447eaa76050_ZA-tUyM_y7s.vtt",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+  "caption_method": "Official MIT OCW captions; no speech recognition run.",
+  "sha256": {
+    "lecture.mp4": "6e3bdca7b36e7569594dd4116a324e376d0f9fe9bd5d1b337c9129f8e5584906",
+    "captions.vtt": "d2aba65d36acb3ad61ea8af6197e420a94105dc8f1bd1a05c5a551192b318f2d"
+  }
+}
